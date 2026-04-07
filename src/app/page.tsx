@@ -71,16 +71,25 @@ export default function Home() {
     <>
       {/* Hero with video background */}
       <section className="relative min-h-[85vh] flex items-center overflow-hidden">
-        {/* Video background - replace src with your actual video */}
+        {/* Desktop video */}
         <video
           autoPlay
           muted
           loop
           playsInline
-          className="absolute inset-0 w-full h-full object-cover"
-          poster="/video-poster.jpg"
+          className="absolute inset-0 w-full h-full object-cover hidden sm:block"
         >
           <source src="/hero-video.mp4" type="video/mp4" />
+        </video>
+        {/* Mobile video - portrait crop */}
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover sm:hidden"
+        >
+          <source src="/hero-video-mobile.mp4" type="video/mp4" />
         </video>
         {/* Dark overlay for text readability */}
         <div className="absolute inset-0 bg-navy/80" />

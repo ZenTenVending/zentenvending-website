@@ -57,7 +57,7 @@ export default function About() {
                 </h3>
                 <p className="text-accent font-medium mb-3">Co-Owner</p>
                 <p className="text-text-muted leading-relaxed">
-                  Bryan Hill is a multi-venture entrepreneur based in Prosper,
+                  Bryan is a multi-venture entrepreneur based in Prosper,
                   Texas, with a background in technology, operations, and
                   building systems that run without friction. He founded ZenTen
                   Vending after noticing the same problem across industries —

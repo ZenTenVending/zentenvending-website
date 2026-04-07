@@ -77,7 +77,7 @@ export default function Home() {
           muted
           loop
           playsInline
-          className="absolute inset-0 w-full h-full object-contain sm:object-cover"
+          className="absolute inset-0 w-full h-full object-cover"
           poster="/video-poster.jpg"
         >
           <source src="/hero-video.mp4" type="video/mp4" />
